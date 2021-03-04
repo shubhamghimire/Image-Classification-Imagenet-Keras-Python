@@ -60,7 +60,7 @@ orig = cv2.imread(args["image"])
 # Percentage by which the image is resized
 scale_percent = 75
 
-# Calculate the 50 percent of original dimensions
+# Calculate the 75 percent of original dimensions
 width = int(orig.shape[1] * scale_percent / 100)
 height = int(orig.shape[0] * scale_percent / 100)
 dsize = (width, height)
